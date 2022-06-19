@@ -48,7 +48,7 @@ let Headmaster = function(name,branch){
 }
 
 Headmaster.prototype=Object.create(Teacher.prototype);
-Headmaster.prototype.console=Headmaster;
+Headmaster.prototype.constructor=Headmaster;
 Headmaster.prototype.shareTask=function(){
     console.log('I have already shared all the work ')
 }
